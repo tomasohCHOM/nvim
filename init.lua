@@ -117,6 +117,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.api.nvim_set_keymap("t", "<Esc>", "<C-\\><C-N>", { noremap = true, silent = true })
+
 require 'lazy-bootstrap'
 require 'lazy-plugins'
 
