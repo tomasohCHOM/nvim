@@ -39,7 +39,6 @@ require('lazy').setup({
   require 'custom/plugins/todo-comments',
   require 'custom/plugins/tresitter',
   require 'custom/plugins/vim-be-good',
-  require 'custom/plugins/which-key',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
