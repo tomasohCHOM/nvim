@@ -174,6 +174,7 @@ return { -- LSP Configuration & Plugins
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
       'black',
+      'emmet-language-server',
       'prettier',
       'eslint-lsp',
       'tailwindcss-language-server',
