@@ -33,7 +33,6 @@ require('lazy').setup({
   require 'custom/plugins/indent_line',
   require 'custom/plugins/lint',
   require 'custom/plugins/lspconfig',
-  require 'custom/plugins/mini',
   require 'custom/plugins/onedark',
   require 'custom/plugins/telescope',
   require 'custom/plugins/todo-comments',
