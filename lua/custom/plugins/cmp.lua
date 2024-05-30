@@ -1,4 +1,3 @@
-
 return { -- Autocompletion
   'hrsh7th/nvim-cmp',
   event = 'InsertEnter',
@@ -103,3 +102,6 @@ return { -- Autocompletion
     }
   end,
 }
+
+-- vim: ts=2 sts=2 sw=2 et
+

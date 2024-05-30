@@ -35,3 +35,5 @@ return { -- Collection of various small independent plugins/modules
     --  Check out: https://github.com/echasnovski/mini.nvim
   end,
 }
+
+-- vim: ts=2 sts=2 sw=2 et

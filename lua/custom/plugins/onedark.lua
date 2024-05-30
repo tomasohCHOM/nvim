@@ -15,3 +15,6 @@ return { -- You can easily change to a different colorscheme.
     vim.cmd.hi 'Comment gui=none'
   end,
 }
+
+-- vim: ts=2 sts=2 sw=2 et
+
