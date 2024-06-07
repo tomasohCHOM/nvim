@@ -8,3 +8,4 @@ end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
 -- vim: ts=2 sts=2 sw=2 et
+
