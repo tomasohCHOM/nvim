@@ -18,7 +18,7 @@ vim.bo.softtabstop = 2
 vim.opt.mouse = 'a'
 
 -- Don't show the mode, since it's already in the status line
-vim.opt.showmode = false
+vim.opt.showmode = true
 
 -- Enable break indent
 vim.opt.breakindent = true
@@ -55,5 +55,7 @@ vim.opt.wrap = false
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
+
+vim.opt.colorcolumn = '80'
 
 -- vim: ts=2 sts=2 sw=2 et

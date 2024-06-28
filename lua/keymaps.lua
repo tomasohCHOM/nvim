@@ -3,7 +3,7 @@ vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Go to the file tree explorer
-vim.keymap.set('n', '<leader>ex', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>E', vim.cmd.Ex)
 
 -- Yank to system clipboard
 vim.keymap.set({ 'n', 'v' }, '<leader>y', [["+y]])
