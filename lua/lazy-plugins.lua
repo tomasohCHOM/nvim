@@ -26,6 +26,7 @@ require('lazy').setup({
   { 'numToStr/Comment.nvim', opts = {} },
 
   require 'custom/plugins/autopairs',
+  require 'custom/plugins/autotag',
   require 'custom/plugins/cmp',
   require 'custom/plugins/conform',
   require 'custom/plugins/debug',
