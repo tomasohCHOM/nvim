@@ -3,7 +3,7 @@ vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Go to the file tree explorer
-vim.keymap.set('n', '<leader>E', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>e', vim.cmd.Ex)
 
 -- Yank to system clipboard
 vim.keymap.set({ 'n', 'v' }, '<leader>y', [["+y]])
@@ -19,7 +19,7 @@ vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next [D]iagnostic message' })
-vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
+vim.keymap.set('n', '<leader>E', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
 -- Delete the ^M that appears when pasting from an external source (Windows moment)
