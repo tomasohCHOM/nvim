@@ -1,7 +1,3 @@
--- Primarily focused on configuring the debugger for Go, but can
--- be extended to other languages as well. That's why it's called
--- kickstart.nvim and not kitchen-sink.nvim ;)
-
 return {
   'mfussenegger/nvim-dap',
   dependencies = {
@@ -18,10 +14,7 @@ return {
     require('mason-nvim-dap').setup {
       automatic_setup = true,
       handlers = {},
-      -- You'll need to check that you have the required things installed
-      -- online, please don't ask me how to install them :)
       ensure_installed = {
-        -- Update this to ensure that you have the debuggers for the langs you want
         'delve',
       },
     }
