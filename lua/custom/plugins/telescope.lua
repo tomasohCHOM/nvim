@@ -103,5 +103,3 @@ return { -- Fuzzy Finder (files, lsp, etc)
     end, { desc = 'Search [N]eovim files' })
   end,
 }
-
--- vim: ts=2 sts=2 sw=2 et
