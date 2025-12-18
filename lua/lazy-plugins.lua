@@ -12,6 +12,7 @@ require('lazy').setup({
   require 'custom/plugins/indent-line',
   require 'custom/plugins/lint',
   require 'custom/plugins/lspconfig',
+  require 'custom/plugins/oil',
   require 'custom/plugins/telescope',
   require 'custom/plugins/theme',
   require 'custom/plugins/tmux-nav',
