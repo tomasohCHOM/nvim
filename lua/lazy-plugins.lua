@@ -1,6 +1,5 @@
 require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
-
   { 'numToStr/Comment.nvim', opts = {} },
 
   require 'custom/plugins/autopairs',
@@ -15,7 +14,6 @@ require('lazy').setup({
   require 'custom/plugins/oil',
   require 'custom/plugins/telescope',
   require 'custom/plugins/theme',
-  require 'custom/plugins/tmux-nav',
   require 'custom/plugins/tresitter',
 }, {
   ui = {
