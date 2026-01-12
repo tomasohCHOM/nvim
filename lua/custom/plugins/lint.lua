@@ -5,7 +5,13 @@ return {
     event = { 'BufReadPre', 'BufNewFile' },
     config = function()
       local lint = require 'lint'
-      lint.linters_by_ft['markdown'] = nil
+      lint.linters_by_ft = {
+        dockerfile = { 'hadolint' },
+        json = { 'jsonlint' },
+        markdown = { nil },
+        terraform = { 'tflint' },
+        text = { nil },
+      }
 
       local lint_augroup = vim.api.nvim_create_augroup('lint', { clear = true })
       vim.api.nvim_create_autocmd({ 'BufEnter', 'BufWritePost', 'InsertLeave' }, {
