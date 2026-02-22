@@ -16,6 +16,8 @@ return { -- Autoformat
       python = { 'black' },
       javascript = { 'prettierd' },
       typescript = { 'prettierd' },
+      javascriptreact = { 'prettierd' },
+      typescriptreact = { 'prettierd' },
       css = { 'prettierd' },
       html = { 'prettierd' },
       json = { 'prettierd' },
